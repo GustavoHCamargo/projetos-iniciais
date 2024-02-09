@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83e0ac;
+}
+main {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    border-radius: 0px 0px 10px 10px;
+}
+
+header {
+    background-image: linear-gradient(0, #195c37, #3bd882);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+}
+#titulos-header {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+#titulos-header h1 {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+#titulos-header h2 {
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+nav ul {
+    height: 30px;
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li {
+    margin: 20px;
+    display: inline;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin:0 auto;
+    width: 95%;
+}
+#droid {
+    width: 40%;
+}
+
+p {
+    text-indent: 20px;
+    padding: 10px 30px 30px 30px;
+    margin: 0 10px;
+    font-size: 22px;
+    text-align: justify;
+}
+section h1, main h2 {
+    padding: 0 20px;
+    font-family: Android;
+    color: #175b36;
+}
+section h1 {
+    padding-top: 10px;
+    font-size: 35px;
+}
+section h2 {
+    margin: 10px 20px;
+    background-image: linear-gradient(to right, #c3ead4, white);
+}
+
+#video {
+    background-color: #195c37;
+    padding: 20px;
+    text-align: center;
+}
+iframe {
+    width: 80%;
+}
+
+aside {
+    background-color: #c4ead5;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+aside h2 {
+    background-color: #2ea866;
+    font-family: unset;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+aside ul {
+    font-size: 22px;
+}
+#listas{
+    display: flex;
+    flex-flow: row;
+}
+aside ul#ul2{
+    margin-left: 20%;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #195c37;
+    margin-top: 20px;
+    padding: 5px;
+    font-style: italic;
+}
+span {
+    font-weight: bolder;
+}
+
+url {
+    color: #136839;
+    font-weight: bold;
+    cursor: pointer;
+}
