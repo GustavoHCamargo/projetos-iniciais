@@ -1,0 +1,217 @@
+@font-face {
+    font-family: FonteLogo;
+    src: url(../fonts/bubblegum-sans-regular.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+}
+#interface {
+    background-color: #fff;
+    width: 1500px;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 130px;
+    background: url("../imagens/glass-logo-peq.jpg") no-repeat bottom left;
+    margin-bottom: 0px;
+}
+#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 30pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0;
+    margin-bottom: 0px;
+}
+#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0;
+    margin-top: 0px;
+}
+
+#menu {
+    display: block;
+}
+#menu h1 {
+    display: none;
+}
+
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+#menu li:hover{
+    background-color: #606060;
+}
+
+#menu a {
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #ffffff;
+}
+
+#icone {
+    position: absolute;
+    left: 1530px;
+    top: 80px;
+}
+
+#corpo {
+    display: block;
+    width: 900px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 15px;
+}
+
+aside {
+    display: block;
+    width: 550px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+aside h1 {
+    font-family: 'FontLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0;
+}
+aside h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: white;
+    padding: 5px;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer p {
+    text-align: center;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+article h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin: 0;
+}
+#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #CECECE;
+    background-color: #ffffff;
+}
+#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+}
+#cabecalho-artigo h3.direita {
+    text-align: right;
+}
+
+.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+.foto-legenda figcaption {
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.foto-legenda figcaption:hover {
+    opacity: 1;
+}
+
+table {
+    border: 1px solid #606060;
+    border-spacing: 0;
+    margin: auto;
+}
+table caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table caption span {
+    display: block;
+    float: right;
+    color: #000000;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+table td {
+    border: 1px solid #606060;
+    padding: 10px;
+}
+.ce {
+    color: white;
+    background-color: #606060;
+    text-align: right;
+    vertical-align: top;
+    font-weight: bold;
+}
+.cd {
+    background-color: #CECECE;
+}
+
+#video2 {
+    width: 100%;
+}
