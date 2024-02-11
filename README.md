@@ -1,6 +1,5 @@
-# Projetos Iniciais
-
 Repositório criado para armazenar os sites que eu começei a aprender Web, com a ajuda de alguns cursos incríveis!
+
 ## [Projeto Mario 🍄](https://gustavohcamargo.github.io/projeto-mario-ded/)
 Site criado em uma iniciação de Desenvolvimento Web, por vídeos do canal "Dev em Dobro", com as aulas apresentadas pelos professores Ricardo Dias e Roberto Dias.
 * Tecnologias: Modal com iframe
