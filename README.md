@@ -12,4 +12,6 @@ Site criado pelo curso "HTML5", pela plataforma "Curso em Vídeo", com as aulas 
 ## [Projeto Android 🤖](https://gustavohcamargo.github.io/projeto-android-cev/)
 Site criado pelo curso "HTML5 e CSS3: Módulo 2", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
 * Tecnologias: Site responsivo (com imagens e iframe responsivo)
- 
+## [Projeto Cordel 📖](https://gustavohcamargo.github.io/projeto-cordel-cev/)
+Site criado pelo curso "HTML5 e CSS3: Módulo 3", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
+* Tecnologias: Efeito paralax em imagens
