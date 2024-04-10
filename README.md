@@ -4,7 +4,7 @@ Repositório criado para armazenar os sites que eu começei a aprender Web, com 
 Site criado em uma iniciação de Desenvolvimento Web, por vídeos do canal "Dev em Dobro", com as aulas apresentadas pelos professores Ricardo Dias e Roberto Dias.
 * Tecnologias: Modal com iframe
 
-## [Projeto Portfólio 🪪](https://gustavohcamargo.github.io/projeto-portfolio-alura/)
+## [Projeto Portfólio 👨‍💻](https://gustavohcamargo.github.io/projeto-portfolio-alura/)
 Site criado em uma iniciação de Desenvolvimento Web, por vídeos do canal "Alura", com as aulas apresentadas pelos professores Paulo Silveira, Rafaella Ballerini e Gui Lima.
 * Tecnologias: Modo escuro
 
@@ -23,3 +23,7 @@ Site criado pelo curso "HTML5 e CSS3: Módulo 3", pela plataforma "Curso em Víd
 ## [Projeto Social 📱](https://gustavohcamargo.github.io/projeto-social-cev/)
 Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
 * Tecnologias: Botões interativos
+
+## [Projeto Login 🪪](https://gustavohcamargo.github.io/projeto-login-cev/)
+Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
+* Tecnologias: Media Queries
