@@ -27,3 +27,7 @@ Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Víd
 ## [Projeto Login 🪪](https://gustavohcamargo.github.io/projeto-login-cev/)
 Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
 * Tecnologias: Media Queries
+
+## [Projeto FIEC 🏫](https://gustavohcamargo.github.io/projeto-portasabertas-fiec/)
+Site desenvolvido durante um curso técnico na instituição FIEC, para um evento nomeado "Portas Abertas".
+* Tecnologias: Bootstrap
