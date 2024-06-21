@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Tech</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav id="header" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div id="logo-nav">
+        <img id="img-logo-nav" src="../img/logo.png" alt="logo-simples">
+        <p>Brawl Tech</p>
+    </div>
+      <div id="itens-nav" class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i> Início</a>
+          <a class="nav-link active" href="#"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+          <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope-open-text"></i> Contato</a>
+        </div>
+      </div>
+  </nav>
+    
+    <main>
+        <div id="content">
+          <div id="textoS">
+            <h1 id="titS">CONHEÇA NOSSA EQUIPE!</h1>
+            <p id="parS">A Brawl Tech é sua parceira de confiança em soluções tecnológicas desde 2024.<br><br> Com uma paixão por inovação e excelência, oferecemos um portfólio abrangente de serviços relacionados à software, hardware e redes.<br><br> Nossa missão é capacitar nossos clientes a alcançar o sucesso através de soluções personalizadas que impulsionam o desempenho e a eficiência.<br><br> Alie-se a nós na jornada para transformar o futuro da tecnologia!</p>
+          </div>
+          <img id="imagemS" src="../img/equipe.png" alt="">
+        </div>
+        <ul id="icons">
+          <li><img id="eqp" onclick="mudarAbout('eqp')" src="../img/logo.png" alt=""></li>
+          <li><i id="hard" onclick="mudarAbout('hard')" class="fa-solid fa-microchip"></i></li>
+          <li><i id="sfot" onclick="mudarAbout('soft')" class="fa-solid fa-laptop-code"></i></li>
+          <li><i id="rede" onclick="mudarAbout('rede')" class="fa-solid fa-server"></i></li>
+          <li><i id="mkt" onclick="mudarAbout('mkt')" class="fa-solid fa-user-tie"></i></li>
+        </ul>
+    </main>
+    <script src="../scripts/about.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

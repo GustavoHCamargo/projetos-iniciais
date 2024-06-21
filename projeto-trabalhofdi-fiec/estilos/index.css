@@ -1,0 +1,135 @@
+#carouselExampleIndicators {
+    height: 100vh;
+}
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+}
+.carousel-item {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+#content-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1300px;
+    height: 500px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor6);
+    border-radius: 20px;
+}
+#imagem {
+    width: 100% !important;
+    height: 100vh !important;
+}
+#texto {
+    width: 650px !important;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size: 3em;
+}
+#interacao {
+    list-style: none;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#interacao button {
+    background-color: transparent;
+    border: none;
+    width: 80%;
+    box-shadow: 0px 0px 20px var(--cor4);
+    border-radius: 20px;
+}
+#interacao li {
+    font-size: 4em;
+    padding: 15px;
+    color: white;
+    text-align: left;
+}
+#interacao li i {
+    width: 80px;
+}
+
+#content {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor5);
+}
+.titulo {
+    position: absolute;
+    left: 25%;
+    background-color: var(--cor5);
+    width: 50%;
+    height: 100px;
+    margin-top: -100px;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    border-radius: 20px 20px 0 0;
+}
+.voltar {
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    width: 100px;
+    height: max-content;
+    background-color: var(--cor5);
+    border: none;
+    color: var(--cor1);
+    font-size: 20px;
+    padding: 10px;
+}
+.especificacoes {
+    color: white;
+    width: 70%;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+.lista {
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 80px;
+}
+.lista li {
+    margin: 7px;
+    font-weight: 500;
+}
+.lista li span {
+    font-weight: 200;
+}
+.orcamento {
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    background-color: var(--cor2);
+    border: none;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+    color: var(--cor3);
+    transition: 0.5s;
+}
+.orcamento:hover {
+    transition: 0.5s;
+    color: white;
+    transform: scale(1.1);
+}

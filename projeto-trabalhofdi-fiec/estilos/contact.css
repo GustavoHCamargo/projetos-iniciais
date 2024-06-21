@@ -1,0 +1,86 @@
+#content {
+    position: absolute;
+    width: 100vw;
+    height: calc(100vh - 130px);
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background-color: var(--cor6);
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px var(--cor4);
+}
+form p {
+    color: white; 
+    font-size: 1.5em; 
+}
+form label {
+    color: white;
+    font-size: 2em;
+}
+select, textarea, input {
+    background-color: var(--cor5);
+    color: var(--cor2);
+    font-size: 1.5em !important;
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid var(--cor3);
+    box-shadow: 0px 0px 5px var(--cor3);
+}
+textarea {
+    resize: none !important;
+}
+select:focus, textarea:focus, input:focus {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    outline: 0;
+    border: 1px solid var(--cor1);
+    box-shadow: 0px 0px 10px var(--cor1);
+}
+
+#submit {
+    color: white;
+    background-color: var(--cor3);
+    width: 50%;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+#submit:hover {
+    transition: 0.5s;
+    background-color: var(--cor2);
+}
+
+#instagram {
+    background-color: var(--cor4);
+    width: 300px;
+    height: 450px;
+    border-radius: 0 20px 20px 0;
+    padding: 20px;
+    color: white;
+}
+#instagram p {
+    font-size: 2em;
+    width: 270px;
+    text-align: center;
+}
+#instagram ul {
+    font-size: 2em;
+    list-style: none;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+::-webkit-input-placeholder {
+    color: #1c195a;
+ }
