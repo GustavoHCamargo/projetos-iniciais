@@ -28,6 +28,10 @@ Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Víd
 Site criado pelo curso "HTML5 e CSS3: Módulo 4", pela plataforma "Curso em Vídeo", com as aulas apresentadas pelo professor Gustavo Guanabara.
 * Tecnologias: Media Queries
 
-## [Projeto FIEC 🏫](https://gustavohcamargo.github.io/projeto-portasabertas-fiec/)
+## [Projeto Evento 🏫](https://gustavohcamargo.github.io/projeto-portasabertas-fiec/)
 Site desenvolvido durante um curso técnico na instituição FIEC, para um evento nomeado "Portas Abertas".
 * Tecnologias: Bootstrap
+
+## [Projeto Brawl 🌟](https://gustavohcamargo.github.io/projeto-trabalhofdi-fiec/)
+Este site foi desenvolvido durante um curso técnico na instituição FIEC, para um trabalho final da matéria Fundamentos da Informática.
+* Tecnologias: Aplicação de conceitos de design
