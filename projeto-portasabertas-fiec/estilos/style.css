@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    background-color: #263173;
+}
+
+#back {
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.568);
+    color: #263173;
+}
+#back:visited {
+    text-decoration: none;
+}
+header {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    user-select: none;
+}
+header img {
+    margin-left: -35px;
+    user-select: none;
+}
+
+#block {
+    width: 40%;
+    height: 70%;
+    background-color: #263173;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    border: 5px double #4765b865;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 200px;
+    z-index: 1;
+}
+#contentBlock {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+#contentBlock h1 {
+    margin-top: 0px;
+}
+#contentBlock p {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+
+#pag1 {
+    display: block;
+    -webkit-animation: animate-block 2s;
+}
+#pag2 {
+    display: none;
+    -webkit-animation: animate-block 2s;
+}
+#pag3 {
+    display: none;
+    -webkit-animation: animate-block 2s;
+}
+#pag4 {
+    display: none;
+    -webkit-animation: animate-block 2s;
+}
+
+#buttonBlock {
+    position: absolute;
+    top: 80%;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #e30016;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.884);
+    width: 70%;
+    font-size: 20px;
+}
+#buttonBlock:hover{
+    background-color: #263173;
+    border: 1px solid #e30016;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.small {
+    position: absolute;
+    top: 90%;
+    color: white;
+}
+#sm1{
+    display: block;
+}
+#sm2{
+    display: none;
+}
+#sm3{
+    display: none;
+}
+#sm4{
+    display: none;
+}
+
+#qrcode {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.589);
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    transform: translate(-50% -50%);
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#qrcode h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#qrcode img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 32px !important;
+    height: 32px !important;
+    margin:50vh 70px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
+.carousel-control-prev-icon {
+    background-image: url('../img/seta-esquerda.png') !important;
+}
+.carousel-control-next-icon {
+    background-image: url('../img/seta-direita.png') !important;
+}
+
+@-webkit-keyframes animate-block {
+    from { opacity: 0;}
+    to { opacity: 1;}
+}

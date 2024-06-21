@@ -1,0 +1,41 @@
+@media (max-width: 1150px) {
+    #qrcode {
+        left: 75%;
+    }
+    #contentBlock p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 900px) {
+    #qrcode {
+        left: 70%;
+        width: 200px;
+    }
+    #contentBlock p {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 740px) {
+    #qrcode {
+        height: max-content;
+        width: 110px;
+        top: 75px;
+        left: 75%;
+    }
+    #qrcode h2 {
+        font-size: 0.9em;
+    }
+    #block {
+        width: 70%;
+        left: 15%;
+    }
+    #main {
+        z-index: 10;
+    }
+    .carousel-control-prev {
+        margin-left: 10px; 
+    }
+    .carousel-control-next {
+        margin-right: 10px; 
+    }
+}
